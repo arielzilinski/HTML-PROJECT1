@@ -1,0 +1,35 @@
+* {
+    -webkit-touch-callout: none;
+     -webkit-user-select: none;
+      -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none; 
+        user-select: none; }
+        
+        .image{
+            background-color: darkolivegreen;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        p {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        .animal{
+            display:flex;
+            background-color:teal
+        }
+        .item p{
+            opacity: 0;
+        }
+        .item img{
+            opacity: 1;
+        }
+        .item:hover img{
+            opacity:0.3 ;
+            }
+        .item:hover p{
+        opacity:1 ;
+        }
